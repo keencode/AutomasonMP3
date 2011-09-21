@@ -1,0 +1,6 @@
+File Manifest
+-------------
+
+  Automason_2.0 <- Release
+  exportPlaylist.zip <- Demonstration .AVI file (large!)
+  src <- Visual Studio 2005 Source Project
