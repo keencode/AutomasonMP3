@@ -1,0 +1,13 @@
+Welcome to Automason version 2.0
+
+Release Notes
+
+Brick Pattern Speech Export:
+  You may need Microsoft's Speech API Installed (SpeechSDK 5.1) in order to have the voices available for the Speech File Export:
+
+  Download and install SpeechSDK 5.1 from here:
+  http://www.microsoft.com/downloads/details.aspx?FamilyID=5e86ec97-40a7-453f-b0ee-6583171b4530&displaylang=en
+
+
+For inquires and development questions email Michael Silver <mike.s.silver@gmail.com>.
+Copyright 2009, Michael Silver
