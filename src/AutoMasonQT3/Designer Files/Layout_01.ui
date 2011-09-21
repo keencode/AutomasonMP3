@@ -1,0 +1,1020 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>MainForm</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>MainForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1024</width>
+            <height>768</height>
+        </rect>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>1024</width>
+            <height>768</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Brick-by-Brick</string>
+    </property>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>grp_Utilities</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>855</x>
+                <y>660</y>
+                <width>165</width>
+                <height>100</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Utilities</string>
+        </property>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_NewSystem</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>15</y>
+                    <width>121</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>New System</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_ExportMesh</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>40</y>
+                    <width>121</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Export Mesh</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_RemoveInactive</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>65</y>
+                    <width>121</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Remove Inactive</string>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>grp_StartConditions</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>855</x>
+                <y>180</y>
+                <width>165</width>
+                <height>75</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Start Conditions</string>
+        </property>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_ActivateBricks</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>20</y>
+                    <width>140</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Activate Bricks</string>
+            </property>
+            <property name="toggleButton">
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_ClearActiveBricks</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>45</y>
+                    <width>140</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Clear Active Bricks</string>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QLabel">
+        <property name="name">
+            <cstring>pxl_GLFrame</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>840</width>
+                <height>750</height>
+            </rect>
+        </property>
+        <property name="frameShape">
+            <enum>Panel</enum>
+        </property>
+        <property name="frameShadow">
+            <enum>Sunken</enum>
+        </property>
+        <property name="scaledContents">
+            <bool>true</bool>
+        </property>
+    </widget>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>grp_Rules</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>855</x>
+                <y>260</y>
+                <width>165</width>
+                <height>395</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Rules</string>
+        </property>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00000</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>20</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00000.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10000</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>40</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00001.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01000</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>60</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00010.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00100</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>80</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00011.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00010</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>100</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00100.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00001</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>120</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00101.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11000</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>140</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00110.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10100</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>160</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_00111.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10010</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>180</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01000.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10001</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>200</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01001.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01100</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>220</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01010.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01010</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>240</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01011.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01001</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>260</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01100.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00110</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>280</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01101.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00101</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>300</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01110.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00011</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>320</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_01111.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11100</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>20</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10000.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11010</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>40</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10001.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11001</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>60</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10010.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11110</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>200</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11001.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01111</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>280</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11101.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01110</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>100</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10100.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10101</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>180</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11000.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10111</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>260</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11100.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10011</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>80</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10011.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01101</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>160</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10111.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11011</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>240</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11011.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_01011</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>140</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10110.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11101</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>220</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11010.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_11111</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>300</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11110.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_00111</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>120</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_10101.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_Rule_10110</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>85</x>
+                    <y>320</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string></string>
+            </property>
+            <property name="pixmap">
+                <pixmap>rule_11111.png</pixmap>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_GeneratePattern</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>16</x>
+                    <y>350</y>
+                    <width>130</width>
+                    <height>35</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Tahoma</family>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>Generate Pattern</string>
+            </property>
+        </widget>
+    </widget>
+    <widget class="QGroupBox">
+        <property name="name">
+            <cstring>grp_BrickCreation</cstring>
+        </property>
+        <property name="enabled">
+            <bool>true</bool>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>855</x>
+                <y>10</y>
+                <width>165</width>
+                <height>165</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Brick Creation</string>
+        </property>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>edit_NumBricks_Col</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>115</x>
+                    <y>90</y>
+                    <width>40</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="text">
+                <string>48</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>edit_NumBricks_Row</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>35</x>
+                    <y>90</y>
+                    <width>40</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>20</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>edit_BrickSize_Width</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>35</x>
+                    <y>40</y>
+                    <width>40</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>8.0</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit">
+            <property name="name">
+                <cstring>edit_BrickSize_Height</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>115</x>
+                    <y>40</y>
+                    <width>40</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>4.0</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>btn_CreateBricks</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>15</x>
+                    <y>125</y>
+                    <width>140</width>
+                    <height>25</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Tahoma</family>
+                    <pointsize>10</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>Create Bricks</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>lbl_BrickSize_Width</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>41</y>
+                    <width>30</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>width:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>lbl_BrickSize_Height</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>80</x>
+                    <y>40</y>
+                    <width>33</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>height:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>lbl_NumBricks_Cols</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>90</x>
+                    <y>90</y>
+                    <width>25</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>cols:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>lbl_NumBricks_Rows</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>90</y>
+                    <width>26</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>rows:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>lbl_NumBricks</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>71</y>
+                    <width>85</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Number of Bricks:</string>
+            </property>
+        </widget>
+        <widget class="QLabel">
+            <property name="name">
+                <cstring>lbl_BrickSize</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>25</y>
+                    <width>50</width>
+                    <height>14</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Brick Size</string>
+            </property>
+        </widget>
+    </widget>
+</widget>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

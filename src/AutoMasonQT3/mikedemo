@@ -1,0 +1,48 @@
+# Automason Run Length Encoded Brick Pattern
+# Total Bricks: 1560
+# Bricks Per Row: 78
+# Start Offset: 2
+# Num Rows: 20
+
+Row 1
+    4 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 2 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 2 Solid, 2 Hollow, 2 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 1 Solid, 2 Hollow, 2 Solid, 2 Hollow, 1 Solid, 3 Hollow, 2 Solid, 1 Hollow, 3 Corner, 6 Solid, 1 Hollow, 1 Solid, 1 Hollow, 2 Solid, 1 Hollow, 4 Solid, 1 Hollow, 3 Corner, 1 Solid
+Row 2
+    4 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 2 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 2 Solid, 2 Hollow, 2 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 1 Solid, 2 Hollow, 2 Solid, 2 Hollow, 1 Solid, 3 Hollow, 2 Solid, 1 Hollow, 3 Corner, 6 Solid, 1 Hollow, 1 Solid, 1 Hollow, 2 Solid, 1 Hollow, 4 Solid, 1 Hollow, 3 Corner, 1 Solid
+Row 3
+    4 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 2 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 2 Solid, 2 Hollow, 2 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 1 Solid, 2 Hollow, 2 Solid, 2 Hollow, 1 Solid, 3 Hollow, 2 Solid, 1 Hollow, 3 Corner, 6 Solid, 1 Hollow, 1 Solid, 1 Hollow, 2 Solid, 1 Hollow, 4 Solid, 1 Hollow, 3 Corner, 1 Solid
+Row 4
+    4 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 2 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 2 Solid, 2 Hollow, 2 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 1 Solid, 2 Hollow, 2 Solid, 2 Hollow, 1 Solid, 3 Hollow, 2 Solid, 1 Hollow, 3 Corner, 6 Solid, 1 Hollow, 1 Solid, 1 Hollow, 2 Solid, 1 Hollow, 4 Solid, 1 Hollow, 3 Corner, 1 Solid
+Row 5
+    4 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 2 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 2 Solid, 2 Hollow, 2 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Solid, 1 Hollow, 1 Solid, 1 Hollow, 3 Corner, 1 Solid, 1 Hollow, 1 Solid, 2 Hollow, 2 Solid, 2 Hollow, 1 Solid, 3 Hollow, 2 Solid, 1 Hollow, 3 Corner, 6 Solid, 1 Hollow, 1 Solid, 1 Hollow, 2 Solid, 1 Hollow, 4 Solid, 1 Hollow, 3 Corner, 1 Solid
+Row 6
+    1 Hollow, 1 Solid, 1 Hollow, 2 Solid, 1 Hollow, 1 Solid, 8 Hollow, 3 Corner, 17 Hollow, 3 Corner, 9 Hollow, 1 Solid, 6 Hollow, 3 Corner, 7 Hollow, 1 Solid, 9 Hollow, 3 Corner, 1 Hollow
+Row 7
+    1 Solid, 7 Hollow, 1 Solid, 6 Hollow, 3 Corner, 17 Hollow, 3 Corner, 8 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 3 Corner, 6 Hollow, 2 Solid, 1 Hollow, 1 Solid, 7 Hollow, 3 Corner, 1 Hollow
+Row 8
+    1 Solid, 1 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 3 Corner, 17 Hollow, 3 Corner, 13 Hollow, 1 Solid, 2 Hollow, 3 Corner, 11 Hollow, 1 Solid, 5 Hollow, 3 Corner, 1 Solid
+Row 9
+    4 Hollow, 1 Solid, 7 Hollow, 1 Solid, 2 Hollow, 3 Corner, 17 Hollow, 3 Corner, 12 Hollow, 2 Solid, 1 Hollow, 1 Solid, 3 Corner, 10 Hollow, 2 Solid, 1 Hollow, 1 Solid, 3 Hollow, 3 Corner, 1 Hollow
+Row 10
+    3 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 1 Solid, 3 Corner, 17 Hollow, 3 Corner, 16 Hollow, 3 Corner, 15 Hollow, 1 Solid, 1 Hollow, 3 Corner, 1 Hollow
+Row 11
+    3 Hollow, 1 Cantilevered, 4 Hollow, 1 Solid, 6 Hollow, 3 Corner, 17 Hollow, 3 Corner, 16 Hollow, 3 Corner, 1 Solid, 13 Hollow, 2 Solid, 1 Hollow, 3 Corner, 1 Cantilevered
+Row 12
+    3 Hollow, 1 Cantilevered, 3 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 3 Corner, 1 Solid, 16 Hollow, 3 Corner, 16 Hollow, 3 Corner, 2 Hollow, 1 Solid, 14 Hollow, 3 Corner, 1 Cantilevered
+Row 13
+    1 Solid, 2 Hollow, 1 Cantilevered, 3 Hollow, 1 Cantilevered, 4 Hollow, 1 Solid, 1 Hollow, 1 Cantilevered, 3 Corner, 2 Hollow, 1 Solid, 14 Hollow, 3 Corner, 16 Hollow, 3 Corner, 1 Hollow, 2 Solid, 1 Hollow, 1 Solid, 12 Hollow, 3 Corner, 1 Cantilevered
+Row 14
+    1 Cantilevered, 1 Hollow, 1 Solid, 1 Cantilevered, 3 Hollow, 1 Cantilevered, 3 Hollow, 1 Solid, 1 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 1 Hollow, 2 Solid, 1 Hollow, 1 Solid, 12 Hollow, 3 Corner, 16 Hollow, 3 Corner, 6 Hollow, 1 Solid, 10 Hollow, 3 Corner, 1 Cantilevered
+Row 15
+    1 Cantilevered, 2 Solid, 1 Cantilevered, 1 Solid, 2 Hollow, 1 Cantilevered, 3 Hollow, 2 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 6 Hollow, 1 Solid, 10 Hollow, 3 Corner, 16 Hollow, 3 Corner, 5 Hollow, 2 Solid, 1 Hollow, 1 Solid, 8 Hollow, 3 Corner, 1 Cantilevered
+Row 16
+    5 Cantilevered, 1 Hollow, 1 Solid, 1 Cantilevered, 3 Hollow, 2 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 1 Solid, 8 Hollow, 3 Corner, 16 Hollow, 3 Corner, 10 Hollow, 1 Solid, 6 Hollow, 3 Corner, 1 Cantilevered
+Row 17
+    5 Cantilevered, 2 Solid, 1 Cantilevered, 1 Solid, 2 Hollow, 2 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 2 Hollow, 1 Solid, 7 Hollow, 1 Solid, 6 Hollow, 3 Corner, 16 Hollow, 3 Corner, 9 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 3 Corner, 1 Cantilevered
+Row 18
+    9 Cantilevered, 1 Hollow, 1 Solid, 2 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 1 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 3 Corner, 16 Hollow, 3 Corner, 14 Hollow, 1 Solid, 2 Hollow, 3 Corner, 1 Cantilevered
+Row 19
+    9 Cantilevered, 2 Solid, 2 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 6 Hollow, 1 Solid, 7 Hollow, 1 Solid, 2 Hollow, 3 Corner, 16 Hollow, 3 Corner, 13 Hollow, 2 Solid, 1 Hollow, 1 Solid, 3 Corner, 1 Cantilevered
+Row 20
+    13 Cantilevered, 1 Hollow, 1 Cantilevered, 3 Corner, 5 Hollow, 2 Solid, 1 Hollow, 1 Solid, 4 Hollow, 2 Solid, 1 Hollow, 1 Solid, 3 Corner, 16 Hollow, 3 Corner, 17 Hollow, 3 Corner, 1 Cantilevered
+
+ # End
